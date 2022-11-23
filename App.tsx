@@ -1,9 +1,10 @@
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
-import { Platform } from 'react-native';
 import { PerformanceObserver } from 'react-native-performance';
+import { JsNavigationScreen } from './screens/js-navigation';
 import { MenuScreen } from './screens/menu-screen';
+import { NavigationScreen } from './screens/navigation';
 import {RenderViewsScreen} from './screens/render-views';
 
 const Stack = createNativeStackNavigator();
@@ -16,6 +17,8 @@ export default function App() {
         <Stack.Screen name="500-views" component={RenderViewsScreen} initialParams={{ nodeCount: 500 }} />
         <Stack.Screen name="1000-views" component={RenderViewsScreen} initialParams={{ nodeCount: 1000 }} />
         <Stack.Screen name="1500-views" component={RenderViewsScreen} initialParams={{ nodeCount: 1500 }} />
+        <Stack.Screen name="navigation" component={NavigationScreen} />
+        <Stack.Screen name="js-navigation" component={JsNavigationScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

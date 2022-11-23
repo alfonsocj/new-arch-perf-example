@@ -6,6 +6,8 @@ const menu = [
   {name: '500 views', screenName: '500-views'},
   {name: '1000 views', screenName: '1000-views'},
   {name: '1500 views', screenName: '1500-views'},
+  {name: 'Native navigation', screenName: 'navigation'},
+  {name: 'JS navigation', screenName: 'js-navigation'},
 ];
 
 interface MenuItemProp {

@@ -10,7 +10,7 @@ function useRunOnce(callback: () => void) {
   }
 }
 
-export function RenderViewsScreen({route}) {
+export function RenderViewsScreen({route, children}) {
   const {nodeCount} = route?.params ?? {};
   const measureName = route?.name;
   const markName = `${measureName}_start`;
@@ -62,6 +62,7 @@ export function RenderViewsScreen({route}) {
         </View>
       )}
       <View style={styles.viewsContainer}>{views}</View>
+      {children}
     </ScrollView>
   );
 }
