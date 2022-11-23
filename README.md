@@ -21,7 +21,7 @@
 - `yarn android --variant=release`
 
 ## Results
-You can find the results in the `perf-tests` directory.
+You can find the results in the `perf-tests` directory. [Results spreadsheet](https://docs.google.com/spreadsheets/d/1J79qVMst6aXOoMXvSJPOEyGOdjB5AKyAxybkSP7-mw0/edit#gid=0).
 
 To get new results:
 - Navigate to one of the test screens
