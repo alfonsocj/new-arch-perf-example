@@ -1,30 +1,70 @@
-11-23 11:57:11.708 22705 22734 I ReactNativeJS: marker: 500-views took 369.71 ms
-11-23 11:55:16.188 22705 22734 I ReactNativeJS: marker: 500-views took 170.82 ms
-11-23 11:55:18.298 22705 22734 I ReactNativeJS: marker: 500-views took 170.62 ms
-11-23 11:55:20.250 22705 22734 I ReactNativeJS: marker: 500-views took 178.71 ms
-11-23 11:55:22.050 22705 22734 I ReactNativeJS: marker: 500-views took 177.95 ms
-11-23 11:55:23.811 22705 22734 I ReactNativeJS: marker: 500-views took 179.89 ms
-11-23 11:55:25.636 22705 22734 I ReactNativeJS: marker: 500-views took 172.84 ms
-11-23 11:55:27.512 22705 22734 I ReactNativeJS: marker: 500-views took 177.53 ms
-11-23 11:55:29.329 22705 22734 I ReactNativeJS: marker: 500-views took 178.70 ms
-11-23 11:55:32.405 22705 22734 I ReactNativeJS: marker: 500-views took 177.57 ms
-11-23 11:55:35.451 22705 22734 I ReactNativeJS: marker: 1000-views took 951.76 ms
-11-23 11:55:38.563 22705 22734 I ReactNativeJS: marker: 1000-views took 1035.96 ms
-11-23 11:55:41.775 22705 22734 I ReactNativeJS: marker: 1000-views took 1034.94 ms
-11-23 11:55:44.864 22705 22734 I ReactNativeJS: marker: 1000-views took 1051.88 ms
-11-23 11:55:47.963 22705 22734 I ReactNativeJS: marker: 1000-views took 1044.88 ms
-11-23 11:55:51.032 22705 22734 I ReactNativeJS: marker: 1000-views took 1050.35 ms
-11-23 11:55:54.237 22705 22734 I ReactNativeJS: marker: 1000-views took 1051.92 ms
-11-23 11:55:57.917 22705 22734 I ReactNativeJS: marker: 1000-views took 1053.91 ms
-11-23 11:56:00.839 22705 22734 I ReactNativeJS: marker: 1000-views took 1083.60 ms
-11-23 11:56:04.777 22705 22734 I ReactNativeJS: marker: 1000-views took 1055.40 ms
-11-23 11:56:34.199 22705 22734 I ReactNativeJS: marker: 1500-views took 1531.86 ms
-11-23 11:56:38.476 22705 22734 I ReactNativeJS: marker: 1500-views took 1607.15 ms
-11-23 11:56:42.859 22705 22734 I ReactNativeJS: marker: 1500-views took 1577.44 ms
-11-23 11:56:47.149 22705 22734 I ReactNativeJS: marker: 1500-views took 1624.03 ms
-11-23 11:56:51.761 22705 22734 I ReactNativeJS: marker: 1500-views took 1596.28 ms
-11-23 11:56:56.151 22705 22734 I ReactNativeJS: marker: 1500-views took 1616.07 ms
-11-23 11:57:00.651 22705 22734 I ReactNativeJS: marker: 1500-views took 1626.60 ms
-11-23 11:57:05.296 22705 22734 I ReactNativeJS: marker: 1500-views took 1647.61 ms
-11-23 11:58:01.515 22705 22734 I ReactNativeJS: marker: 1500-views took 1550.83 ms
-11-23 11:58:06.397 22705 22734 I ReactNativeJS: marker: 1500-views took 1603.65 ms
+11-28 11:34:50.263 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 349.04 ms
+11-28 11:34:54.889 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 168.47 ms
+11-28 11:34:56.905 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 166.67 ms
+11-28 11:34:58.655 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 165.23 ms
+11-28 11:35:00.465 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 168.23 ms
+11-28 11:35:02.243 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 160.32 ms
+11-28 11:35:03.995 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 166.72 ms
+11-28 11:35:05.761 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 175.50 ms
+11-28 11:35:07.561 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 168.85 ms
+11-28 11:35:09.292 20067 20098 I ReactNativeJS: [fabric] marker: 500-views took 169.72 ms
+11-28 11:35:12.552 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 932.80 ms
+11-28 11:35:15.872 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1021.53 ms
+11-28 11:35:19.368 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1038.10 ms
+11-28 11:35:23.015 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1036.72 ms
+11-28 11:35:26.076 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1043.22 ms
+11-28 11:35:28.988 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1027.21 ms
+11-28 11:35:31.903 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1040.76 ms
+11-28 11:35:34.813 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1047.46 ms
+11-28 11:35:38.938 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1054.54 ms
+11-28 11:35:41.847 20067 20098 I ReactNativeJS: [fabric] marker: 1000-views took 1045.36 ms
+11-28 11:35:46.548 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1604.17 ms
+11-28 11:35:50.835 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1595.99 ms
+11-28 11:35:54.693 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1595.31 ms
+11-28 11:36:02.459 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1597.59 ms
+11-28 11:36:07.076 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1595.60 ms
+11-28 11:36:11.889 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1607.58 ms
+11-28 11:36:16.314 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1592.58 ms
+11-28 11:36:23.617 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1595.93 ms
+11-28 11:36:28.650 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1612.68 ms
+11-28 11:36:35.060 20067 20098 I ReactNativeJS: [fabric] marker: 1500-views took 1590.95 ms
+11-28 11:36:40.166 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 18.70 ms
+11-28 11:36:44.526 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 26.32 ms
+11-28 11:36:50.811 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 12.93 ms
+11-28 11:36:51.986 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 17.02 ms
+11-28 11:36:55.275 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 11.92 ms
+11-28 11:36:56.333 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 15.30 ms
+11-28 11:36:59.404 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 12.38 ms
+11-28 11:37:00.511 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 13.25 ms
+11-28 11:37:03.484 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 12.53 ms
+11-28 11:37:04.304 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 14.72 ms
+11-28 11:37:07.146 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 14.93 ms
+11-28 11:37:07.937 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 14.62 ms
+11-28 11:37:10.640 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 16.51 ms
+11-28 11:37:11.393 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 16.96 ms
+11-28 11:37:13.866 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 12.47 ms
+11-28 11:37:14.602 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 13.66 ms
+11-28 11:37:17.143 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 13.08 ms
+11-28 11:37:17.850 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 19.27 ms
+11-28 11:37:20.504 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_1 took 12.30 ms
+11-28 11:37:21.158 20067 20098 I ReactNativeJS: [fabric] marker: native_navigation_2 took 12.94 ms
+11-28 11:37:29.683 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 30.66 ms
+11-28 11:37:30.589 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 28.03 ms
+11-28 11:37:36.940 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 27.54 ms
+11-28 11:37:37.859 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 36.17 ms
+11-28 11:37:42.758 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 32.53 ms
+11-28 11:37:43.667 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 29.64 ms
+11-28 11:37:46.519 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 28.91 ms
+11-28 11:37:47.421 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 30.32 ms
+11-28 11:37:50.648 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 30.83 ms
+11-28 11:37:51.518 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 32.98 ms
+11-28 11:37:54.194 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 25.05 ms
+11-28 11:37:55.021 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 29.90 ms
+11-28 11:37:59.259 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 29.00 ms
+11-28 11:38:00.112 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 29.02 ms
+11-28 11:38:04.410 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 29.06 ms
+11-28 11:38:05.348 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 33.88 ms
+11-28 11:38:15.147 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 25.36 ms
+11-28 11:38:15.960 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 30.29 ms
+11-28 11:38:19.056 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_1 took 28.11 ms
+11-28 11:38:19.807 20067 20098 I ReactNativeJS: [fabric] marker: js_navigation_2 took 30.63 ms

@@ -1,30 +1,74 @@
-12:32:11.108640-0500	NewArchPerfExample	marker: 500-views took 171.57 ms
-12:32:13.092734-0500	NewArchPerfExample	marker: 500-views took 172.87 ms
-12:32:15.060061-0500	NewArchPerfExample	marker: 500-views took 174.90 ms
-12:32:16.811007-0500	NewArchPerfExample	marker: 500-views took 178.49 ms
-12:32:18.994895-0500	NewArchPerfExample	marker: 500-views took 166.71 ms
-12:32:20.545959-0500	NewArchPerfExample	marker: 500-views took 168.01 ms
-12:32:22.245985-0500	NewArchPerfExample	marker: 500-views took 233.41 ms
-12:32:23.929707-0500	NewArchPerfExample	marker: 500-views took 181.48 ms
-12:32:25.730437-0500	NewArchPerfExample	marker: 500-views took 177.58 ms
-12:32:27.460963-0500	NewArchPerfExample	marker: 500-views took 177.46 ms
-12:32:29.299124-0500	NewArchPerfExample	marker: 1000-views took 320.05 ms
-12:32:31.432676-0500	NewArchPerfExample	marker: 1000-views took 320.76 ms
-12:32:33.450061-0500	NewArchPerfExample	marker: 1000-views took 326.70 ms
-12:32:35.367429-0500	NewArchPerfExample	marker: 1000-views took 320.55 ms
-12:32:37.752387-0500	NewArchPerfExample	marker: 1000-views took 300.80 ms
-12:32:39.468766-0500	NewArchPerfExample	marker: 1000-views took 303.32 ms
-12:32:41.407301-0500	NewArchPerfExample	marker: 1000-views took 323.93 ms
-12:32:43.237009-0500	NewArchPerfExample	marker: 1000-views took 316.81 ms
-12:32:44.987664-0500	NewArchPerfExample	marker: 1000-views took 298.48 ms
-12:32:46.888370-0500	NewArchPerfExample	marker: 1000-views took 323.40 ms
-12:32:49.333247-0500	NewArchPerfExample	marker: 1500-views took 486.68 ms
-12:32:51.908113-0500	NewArchPerfExample	marker: 1500-views took 698.46 ms
-12:32:55.209567-0500	NewArchPerfExample	marker: 1500-views took 479.29 ms
-12:32:58.525906-0500	NewArchPerfExample	marker: 1500-views took 482.76 ms
-12:33:01.317907-0500	NewArchPerfExample	marker: 1500-views took 483.04 ms
-12:33:04.278230-0500	NewArchPerfExample	marker: 1500-views took 634.46 ms
-12:33:06.946213-0500	NewArchPerfExample	marker: 1500-views took 480.39 ms
-12:33:09.997852-0500	NewArchPerfExample	marker: 1500-views took 475.03 ms
-12:33:12.749305-0500	NewArchPerfExample	marker: 1500-views took 477.91 ms
-12:33:15.116957-0500	NewArchPerfExample	marker: 1500-views took 476.53 ms
+10:58:37.535832-0500	NewArchPerfExample	[fabric] marker: 500-views took 176.26 ms
+10:58:40.121089-0500	NewArchPerfExample	[fabric] marker: 500-views took 175.62 ms
+10:58:42.423310-0500	NewArchPerfExample	[fabric] marker: 500-views took 178.32 ms
+10:58:44.526107-0500	NewArchPerfExample	[fabric] marker: 500-views took 179.70 ms
+10:58:46.398051-0500	NewArchPerfExample	[fabric] marker: 500-views took 179.51 ms
+10:58:48.295327-0500	NewArchPerfExample	[fabric] marker: 500-views took 175.88 ms
+10:58:50.147134-0500	NewArchPerfExample	[fabric] marker: 500-views took 179.09 ms
+10:58:51.950875-0500	NewArchPerfExample	[fabric] marker: 500-views took 179.16 ms
+10:58:54.251112-0500	NewArchPerfExample	[fabric] marker: 500-views took 182.17 ms
+10:58:56.119534-0500	NewArchPerfExample	[fabric] marker: 500-views took 179.19 ms
+10:58:58.205847-0500	NewArchPerfExample	[fabric] marker: 1000-views took 331.93 ms
+10:59:00.576319-0500	NewArchPerfExample	[fabric] marker: 1000-views took 327.01 ms
+10:59:03.109776-0500	NewArchPerfExample	[fabric] marker: 1000-views took 321.05 ms
+10:59:05.145147-0500	NewArchPerfExample	[fabric] marker: 1000-views took 323.81 ms
+10:59:07.881283-0500	NewArchPerfExample	[fabric] marker: 1000-views took 323.27 ms
+10:59:10.133899-0500	NewArchPerfExample	[fabric] marker: 1000-views took 355.48 ms
+10:59:12.418428-0500	NewArchPerfExample	[fabric] marker: 1000-views took 327.90 ms
+10:59:14.458199-0500	NewArchPerfExample	[fabric] marker: 1000-views took 323.97 ms
+10:59:16.617499-0500	NewArchPerfExample	[fabric] marker: 1000-views took 331.07 ms
+10:59:18.612524-0500	NewArchPerfExample	[fabric] marker: 1000-views took 325.50 ms
+10:59:20.727761-0500	NewArchPerfExample	[fabric] marker: 1500-views took 478.52 ms
+10:59:23.128813-0500	NewArchPerfExample	[fabric] marker: 1500-views took 477.59 ms
+10:59:25.480989-0500	NewArchPerfExample	[fabric] marker: 1500-views took 480.03 ms
+10:59:27.749825-0500	NewArchPerfExample	[fabric] marker: 1500-views took 478.40 ms
+10:59:29.952236-0500	NewArchPerfExample	[fabric] marker: 1500-views took 465.00 ms
+10:59:32.120168-0500	NewArchPerfExample	[fabric] marker: 1500-views took 465.17 ms
+10:59:34.288706-0500	NewArchPerfExample	[fabric] marker: 1500-views took 455.77 ms
+10:59:36.323909-0500	NewArchPerfExample	[fabric] marker: 1500-views took 454.12 ms
+10:59:38.425883-0500	NewArchPerfExample	[fabric] marker: 1500-views took 463.54 ms
+10:59:40.577915-0500	NewArchPerfExample	[fabric] marker: 1500-views took 476.24 ms
+
+10:57:41.400118-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 17.93 ms
+10:57:42.868982-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 17.01 ms
+10:57:46.088124-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.54 ms
+10:57:46.960442-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 18.08 ms
+10:57:49.467645-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.89 ms
+10:57:50.174572-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 17.44 ms
+10:57:52.309011-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.26 ms
+10:57:53.031143-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 16.02 ms
+10:57:55.414668-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 15.93 ms
+10:57:56.298716-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 16.22 ms
+10:57:58.514991-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.72 ms
+10:57:59.237091-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 15.72 ms
+10:58:01.368942-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.53 ms
+10:58:02.105001-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 15.89 ms
+10:58:04.454381-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.77 ms
+10:58:05.143320-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 16.04 ms
+10:58:07.241197-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.37 ms
+10:58:08.012758-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 16.54 ms
+10:58:10.330040-0500	NewArchPerfExample	[fabric] marker: native_navigation_1 took 16.75 ms
+10:58:11.048120-0500	NewArchPerfExample	[fabric] marker: native_navigation_2 took 16.30 ms
+
+10:56:33.172946-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 25.37 ms
+10:56:33.876970-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 25.93 ms
+10:56:37.143177-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 28.04 ms
+10:56:37.866168-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 25.46 ms
+10:56:39.979397-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 27.53 ms
+10:56:40.635483-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 24.07 ms
+10:56:43.031883-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 27.15 ms
+10:56:43.757865-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 24.29 ms
+10:56:45.969602-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 27.17 ms
+10:56:47.042906-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 23.70 ms
+10:56:49.421782-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 27.24 ms
+10:56:50.178514-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 23.82 ms
+10:56:52.560710-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 26.13 ms
+10:56:53.286775-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 19.21 ms
+10:56:55.700836-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 25.48 ms
+10:56:56.499820-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 27.08 ms
+10:56:59.868151-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 25.36 ms
+10:57:01.523876-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 26.80 ms
+10:57:06.189795-0500	NewArchPerfExample	[fabric] marker: js_navigation_1 took 25.00 ms
+10:57:07.065088-0500	NewArchPerfExample	[fabric] marker: js_navigation_2 took 25.89 ms
+
+

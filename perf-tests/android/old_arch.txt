@@ -1,30 +1,71 @@
-11-23 12:02:07.879 23478 23512 I ReactNativeJS: marker: 500-views took 299.50 ms
-11-23 12:02:25.482 23478 23512 I ReactNativeJS: marker: 500-views took 296.43 ms
-11-23 12:02:28.089 23478 23512 I ReactNativeJS: marker: 500-views took 304.80 ms
-11-23 12:02:29.928 23478 23512 I ReactNativeJS: marker: 500-views took 299.10 ms
-11-23 12:02:41.078 23789 23834 I ReactNativeJS: marker: 500-views took 311.05 ms
-11-23 12:02:43.450 23789 23834 I ReactNativeJS: marker: 500-views took 317.62 ms
-11-23 12:02:48.549 23789 23834 I ReactNativeJS: marker: 500-views took 306.06 ms
-11-23 12:02:50.238 23789 23834 I ReactNativeJS: marker: 500-views took 315.60 ms
-11-23 12:02:51.809 23789 23834 I ReactNativeJS: marker: 500-views took 315.60 ms
-11-23 12:02:53.766 23789 23834 I ReactNativeJS: marker: 500-views took 305.50 ms
-11-23 12:02:58.079 23789 23834 I ReactNativeJS: marker: 1000-views took 564.56 ms
-11-23 12:03:00.218 23789 23834 I ReactNativeJS: marker: 1000-views took 591.54 ms
-11-23 12:03:02.086 23789 23834 I ReactNativeJS: marker: 1000-views took 530.75 ms
-11-23 12:03:03.963 23789 23834 I ReactNativeJS: marker: 1000-views took 565.07 ms
-11-23 12:03:05.837 23789 23834 I ReactNativeJS: marker: 1000-views took 611.36 ms
-11-23 12:03:07.563 23789 23834 I ReactNativeJS: marker: 1000-views took 545.07 ms
-11-23 12:03:09.412 23789 23834 I ReactNativeJS: marker: 1000-views took 584.52 ms
-11-23 12:03:11.319 23789 23834 I ReactNativeJS: marker: 1000-views took 589.98 ms
-11-23 12:03:13.142 23789 23834 I ReactNativeJS: marker: 1000-views took 610.92 ms
-11-23 12:03:14.947 23789 23834 I ReactNativeJS: marker: 1000-views took 596.90 ms
-11-23 12:03:16.996 23789 23834 I ReactNativeJS: marker: 1500-views took 811.54 ms
-11-23 12:03:19.193 23789 23834 I ReactNativeJS: marker: 1500-views took 854.31 ms
-11-23 12:03:21.247 23789 23834 I ReactNativeJS: marker: 1500-views took 883.39 ms
-11-23 12:03:23.240 23789 23834 I ReactNativeJS: marker: 1500-views took 900.42 ms
-11-23 12:03:25.310 23789 23834 I ReactNativeJS: marker: 1500-views took 899.61 ms
-11-23 12:03:27.299 23789 23834 I ReactNativeJS: marker: 1500-views took 814.68 ms
-11-23 12:03:29.406 23789 23834 I ReactNativeJS: marker: 1500-views took 887.05 ms
-11-23 12:03:31.413 23789 23834 I ReactNativeJS: marker: 1500-views took 893.29 ms
-11-23 12:03:33.338 23789 23834 I ReactNativeJS: marker: 1500-views took 791.40 ms
-11-23 12:03:35.491 23789 23834 I ReactNativeJS: marker: 1500-views took 864.25 ms
+11-28 11:25:46.248 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 309.26 ms
+11-28 11:25:50.295 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 288.91 ms
+11-28 11:25:52.302 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 313.52 ms
+11-28 11:25:53.990 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 300.20 ms
+11-28 11:25:55.595 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 307.43 ms
+11-28 11:25:57.133 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 287.55 ms
+11-28 11:25:59.190 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 319.61 ms
+11-28 11:26:00.812 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 297.51 ms
+11-28 11:26:02.396 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 264.13 ms
+11-28 11:26:04.126 16903 16940 I ReactNativeJS: [paper] marker: 500-views took 279.90 ms
+11-28 11:26:07.015 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 590.09 ms
+11-28 11:26:09.059 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 527.55 ms
+11-28 11:26:10.944 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 574.54 ms
+11-28 11:26:12.799 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 558.31 ms
+11-28 11:26:14.618 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 518.09 ms
+11-28 11:26:16.394 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 565.09 ms
+11-28 11:26:18.221 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 519.30 ms
+11-28 11:26:19.957 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 563.26 ms
+11-28 11:26:21.762 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 596.94 ms
+11-28 11:26:23.550 16903 16940 I ReactNativeJS: [paper] marker: 1000-views took 585.32 ms
+11-28 11:26:25.687 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 764.47 ms
+11-28 11:26:27.948 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 859.58 ms
+11-28 11:26:33.347 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 871.01 ms
+11-28 11:26:36.141 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 876.63 ms
+11-28 11:26:38.479 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 843.25 ms
+11-28 11:26:40.904 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 873.86 ms
+11-28 11:26:43.130 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 870.53 ms
+11-28 11:26:45.318 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 859.88 ms
+11-28 11:26:47.542 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 799.51 ms
+11-28 11:26:49.920 16903 16940 I ReactNativeJS: [paper] marker: 1500-views took 791.50 ms
+
+11-28 11:26:51.989 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 19.94 ms
+11-28 11:26:52.842 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 37.64 ms
+11-28 11:26:55.651 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 38.32 ms
+11-28 11:26:56.689 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 32.70 ms
+11-28 11:26:59.061 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 36.20 ms
+11-28 11:26:59.814 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 35.98 ms
+11-28 11:27:02.189 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 33.25 ms
+11-28 11:27:02.874 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 31.62 ms
+11-28 11:27:05.198 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 33.81 ms
+11-28 11:27:05.899 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 31.57 ms
+11-28 11:27:08.239 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 35.98 ms
+11-28 11:27:08.943 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 37.01 ms
+11-28 11:27:15.512 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 37.62 ms
+11-28 11:27:18.739 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 32.47 ms
+11-28 11:27:21.699 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 32.32 ms
+11-28 11:27:22.451 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 34.71 ms
+11-28 11:27:25.410 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 34.78 ms
+11-28 11:27:26.095 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 20.47 ms
+11-28 11:27:28.268 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_1 took 19.96 ms
+11-28 11:27:28.905 16903 16940 I ReactNativeJS: [paper] marker: native_navigation_2 took 31.27 ms
+11-28 11:27:31.431 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 49.84 ms
+11-28 11:27:32.198 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 41.43 ms
+11-28 11:27:35.241 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 48.99 ms
+11-28 11:27:36.060 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 38.76 ms
+11-28 11:27:38.220 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 34.69 ms
+11-28 11:27:39.053 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 38.09 ms
+11-28 11:27:41.168 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 25.81 ms
+11-28 11:27:41.879 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 40.44 ms
+11-28 11:27:44.170 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 50.79 ms
+11-28 11:27:44.872 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 38.16 ms
+11-28 11:27:47.130 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 34.69 ms
+11-28 11:27:48.485 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 35.70 ms
+11-28 11:27:50.976 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 34.95 ms
+11-28 11:27:51.678 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 38.48 ms
+11-28 11:27:53.801 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 37.90 ms
+11-28 11:27:54.520 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 41.73 ms
+11-28 11:27:56.593 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 46.61 ms
+11-28 11:27:57.279 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 38.49 ms
+11-28 11:27:59.419 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_1 took 34.42 ms
+11-28 11:28:00.438 16903 16940 I ReactNativeJS: [paper] marker: js_navigation_2 took 36.12 ms

@@ -10,9 +10,9 @@ function useRunOnce(callback: () => void) {
   }
 }
 
-export function RenderViewsScreen({route, children}) {
+export function RenderViewsScreen({route, children, metricName}) {
   const {nodeCount} = route?.params ?? {};
-  const measureName = route?.name;
+  const measureName = metricName ?? route?.name;
   const markName = `${measureName}_start`;
   const finishedMeasurement = useRef(false);
   const [markerDuration, setMarkerDuration] = useState();
