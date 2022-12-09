@@ -1,5 +1,5 @@
-import React, {useMemo} from 'react';
-import {Button} from './navigation';
+import React, {useState, useCallback} from 'react';
+import {Button} from '../components/button';
 import {
   StyleSheet,
   View,
@@ -8,31 +8,19 @@ import {
   FlatList,
   ScrollView,
 } from 'react-native';
+import performance from 'react-native-performance';
+import { DeepComponent } from '../components/deep-component';
 
-type DeepComponentProps = ViewProps & {
-  levels: number;
-  title?: string;
-};
 
-function DeepComponent({levels = 5, ...props}: DeepComponentProps) {
-  if (levels === 0) {
-    return <Text>{props.title ?? 'node'}</Text>;
-  }
-
-  return (
-    <View style={styles.borderedView}>
-      <DeepComponent levels={levels - 1} {...props} />
-    </View>
-  );
+interface HeavyScreenProps {
+  type: 'non-virtualized' | 'virtualized';
+  amountOfViews?: number;
+  viewDepth?: number;
 }
 
-type HeavyScreenContent = ViewProps & {
-  type: 'non-virtualized' | 'virtualized';
-};
+type HeavyScreenContent = ViewProps & HeavyScreenProps;
 
-function HeavyScreenContent({type = 'non-virtualized'}) {
-  const amountOfViews = 800;
-  const viewDepth = 10;
+function HeavyScreenContent({type = 'non-virtualized', amountOfViews = 800, viewDepth = 10}) {
 
   if (type === 'virtualized') {
     return (
@@ -59,22 +47,53 @@ function HeavyScreenContent({type = 'non-virtualized'}) {
   );
 }
 
+export function HeavyScreenWithoutNav(props: HeavyScreenProps) {
+  const [nodes, setNodes] = useState([]);
+  const measureName = 'heavy-screen-no-nav';
+  const markName = `${measureName}_start`;
+  const [markerDuration, setMarkerDuration] = useState();
+
+  const appendNode = useCallback(() => {
+    performance.mark(markName);
+    setNodes(nodes => [...nodes, <DeepComponent key={nodes.length} levels={5} title={nodes.length} />]);
+  }, [nodes]);
+
+  const endPerformanceMarker = useCallback(() => {
+    performance.measure(measureName, markName);
+    const entries = performance.getEntriesByName(measureName);
+    const entry = entries[entries.length - 1] || {duration: 0, name: ''};
+    const duration = `marker: ${entry.name} took ${entry.duration.toFixed(
+      2,
+    )} ms`;
+    setMarkerDuration(duration);
+  }, []);
+
+  return (
+    <View style={{flex: 1}}>
+      <Button onPress={appendNode}>Append node</Button>
+      {nodes.length > 0 && <View onLayout={endPerformanceMarker}>{nodes}</View>}
+      <Text style={styles.markerText}>{markerDuration}</Text>
+      <HeavyScreenContent {...props} />
+    </View>
+  );
+}
+
 export function HeavyScreen({navigation, route}) {
   const {type} = route.params;
 
   return (
-    <>
+    <View style={{flex: 1}}>
       <Button onPress={() => navigation.push('tests-menu')}>
         Navigate to tests
       </Button>
       <HeavyScreenContent type={type} />
-    </>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  borderedView: {
-    borderWidth: 1,
-    padding: 5,
+  markerText: {
+    color: 'orange',
+    fontWeight: 'bold',
   },
 });

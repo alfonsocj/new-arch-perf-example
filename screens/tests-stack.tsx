@@ -20,7 +20,7 @@ const testMenu = [
 
 export function TestsStack() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{animation: 'none'}}>
       <Stack.Screen
         name="tests-menu"
         component={MenuScreen}

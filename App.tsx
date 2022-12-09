@@ -1,14 +1,21 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {PerformanceObserver} from 'react-native-performance';
+import {HeavyScreenWithoutNav} from './screens/heavy-screen';
 import {TestsStack} from './screens/tests-stack';
 
+const NAV_ENABLED = false;
+
 export default function App() {
-  return (
-    <NavigationContainer>
-      <TestsStack />
-    </NavigationContainer>
-  );
+  if (NAV_ENABLED) {
+    return (
+      <NavigationContainer>
+        <TestsStack />
+      </NavigationContainer>
+    );
+  }
+
+  return <HeavyScreenWithoutNav type="non-virtualized" />;
 }
 
 export const DEBUG_PERFORMANCE_MARKERS = true;

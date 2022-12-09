@@ -1,20 +1,8 @@
 import React from 'react';
 import {RenderViewsScreen} from './render-views';
-import {TouchableOpacity, Text, StyleSheet} from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
+import { Button } from '../components/button';
 
-interface ButtonProps {
-  onPress?: () => void;
-  children?: React.ReactNode;
-}
-
-export function Button({children, onPress}: ButtonProps) {
-  return (
-    <TouchableOpacity onPress={onPress} style={styles.button}>
-      <Text style={styles.buttonText}>{children}</Text>
-    </TouchableOpacity>
-  );
-}
 
 export function NavigationScreen(props) {
   const {push} = props.navigation;
@@ -39,17 +27,4 @@ export function NavigationScreen(props) {
   );
 }
 
-const styles = StyleSheet.create({
-  button: {
-    paddingVertical: 10,
-    paddingHorizontal: 15,
-    backgroundColor: '#165AF8',
-    borderRadius: 15,
-    margin: 5,
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 20,
-    textAlign: 'center'
-  },
-});
+

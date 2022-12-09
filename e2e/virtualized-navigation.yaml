@@ -1,0 +1,6 @@
+appId: com.newarchperfexample
+---
+- launchApp
+- tapOn: "Virtualized heavy"
+- tapOn: "Navigate to tests"
+- tapOn: "Native navigation"
